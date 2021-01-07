@@ -1,0 +1,6 @@
+s = input("Enter string: ").replace('a', 'd')
+f = open("st.txt", "r+")
+f.write(s)
+f.seek(0)
+print(f.read())
+f.close()
